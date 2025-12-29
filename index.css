@@ -1,0 +1,61 @@
+body {
+    font-family: 'poppins';
+    background: #020617;
+    color: #F9FAFB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #F9FAFB;
+    padding: 7px;
+    border-radius: 12px;
+    transition: all 0.1s;
+
+}
+
+li a:hover {
+    background-color: rgba(245, 245, 245, 0.39);
+    text-decoration: underline;
+}
+
+a {
+    color: #F9FAFB;
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.git {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent {
+    padding: 20px;
+}
+
+a:hover {
+    color: #FACC15;
+    text-decoration: underline;
+}

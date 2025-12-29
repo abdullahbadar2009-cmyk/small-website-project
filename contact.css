@@ -1,0 +1,77 @@
+    body {
+        background: #020617;
+        color: #F9FAFB;
+        font-family: 'poppins';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .parent {
+        padding: 20px;
+        background: #111827;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0px 10px 30px black;
+    }
+
+    label {
+        display: flex;
+        font-size: small;
+        margin-bottom: -8px;
+        margin-left: 50px;
+    }
+
+    input {
+        margin: 5px;
+        padding: 10px;
+        border-radius: 12px;
+        outline: none;
+        font-family: 'poppins';
+        font-weight: bolder;
+        border: 2px solid #111827;
+        transition: all 0.2s;
+
+    }
+
+    input:focus {
+        border: 2px solid aqua;
+    }
+
+    .btn {
+        padding: 10px;
+        margin: 10px;
+        font-family: 'poppins';
+        font-weight: bolder;
+        border-radius: 20px;
+        background: #FACC15;
+        border: none;
+        width: 60%;
+        transition: all 0.2s;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0px 10px 30px #FACC15;
+    }
+
+    .btn:active {
+        box-shadow: none;
+        background-color: lightgreen;
+        transform: translateY(0px);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: small;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+
+    a:hover {
+        color: crimson;
+        text-decoration: underline;
+    }
